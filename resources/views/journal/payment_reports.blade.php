@@ -108,7 +108,7 @@
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                @foreach($finalResults as $row)
+                                                                @foreach($results as $row)
                                                                 <tr>
                                                                     <td>{{ $row->paymentDate }}</td>
                                                                     <td>{{ $row->journal_reference_id }}</td>
