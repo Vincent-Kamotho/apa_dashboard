@@ -173,7 +173,6 @@ class JournalController extends Controller
         ->distinct()
         ->limit(100)
         ->get();
-        dd($details);
 
         // Step 4: Build structured lookup
         $structured = [];
